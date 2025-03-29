@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyVersionControlSystem.Core\MyVersionControlSystem.Core.csproj" />
+    <ProjectReference Include="..\MyVersionControlSystem.Data\MyVersionControlSystem.Data.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyVersionControlSystem.Core.Interfaces
+﻿namespace MyVersionControlSystem.Core.Interfaces
 {
-    internal class ICommitService
+    using MyVersionControlSystem.Core.Models;
+
+    public interface ICommitService
     {
+        Commit CreateCommit(string repositoryName, string branchName, string message, List<FileChange> fileChanges);
+        Commit? GetCommit(string repositoryName, string commitHash);
+        List<Commit> GetCommitsForBranch(string repositoryName, string branchName);
     }
 }
