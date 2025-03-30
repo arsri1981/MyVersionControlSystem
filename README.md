@@ -46,6 +46,7 @@ The system follows a layered architecture to separate concerns and improve maint
 *   **ConsoleApp:**  A simple command-line interface for interacting with the system.
 
 ## Folder Structure
+![](folder_structure.png)
 
 ## Technologies Used
 
