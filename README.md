@@ -64,7 +64,7 @@ The system follows a layered architecture to separate concerns and improve maint
 1.  Clone the repository:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/arsri1981/MyVersionControlSystem.git
     ```
 
 2.  Navigate to the project directory:
@@ -113,8 +113,3 @@ Follow the prompts in the console application to create repositories, commit cha
 
 ![](sequence_diagram_commit.png)
 
-**(Replace the placeholders below with actual diagram images or links to diagrams.)**
-
-### High-Level Diagram
-
-This diagram shows the main components of the system and their relationships.
